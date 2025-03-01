@@ -33,11 +33,14 @@ Dataset consists of the following columns:
 - Implant #
 - Time of Measurement (Date/Time)
 - OK/NG (Passed or Failed on Volume Specification)
-- Lot/Slide #
-- Serial Counter
+_- Lot/Slide #
+- Serial Counter_
 - Diameter (mm)
 - Length (mm)
 - Volume (mm3)
+
+_Italisised columns have been disregarded as they are not relevant for this analysis._
+
 Dataset has undergone cleaning/wrangling prior to analysis (Power Query).
 
 ### Dataset
@@ -91,6 +94,7 @@ Efficiency of the digital microscope is represented by plotting the number of im
 ![image](https://github.com/user-attachments/assets/a9c9852f-34f5-4dbf-97b6-b0779589e681)
 
 ## Recommendations/Remarks
+Overall, the production of these implants have proved to be satisfactory for the purpose of up-scaled production. Implants are cut to target volume accurately and with high precision, and both Size A and B implants yield sufficient pass rates. Efficiency of inspections is also highly appropriate for upscaling activities. Given the generally positive insights extracted from this analysis, the following recommendations can be made to PMP to optimise their current processes:
 - Improving volume accuracy:
     - As it stands, both Size A and B implants are achieving the target implant volume to satisfactory degrees for production campaigns. Though, micro-adjustments to the Size A cutting measurement can be made to lower the target implant volume, so that more Size A implants fall within the volume specification threshold, thereby improving the pass rate of Size A implants. 
 - Exploring methods to minimise formation and subsequent inspections of offcuts when cutting implants:
