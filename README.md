@@ -28,7 +28,7 @@ Trend-over-time analysis of the two implant sizes suggested that though there we
 Assessment of individual implants volumes revealed that a significant proportion of failed Size A implants tended to exceed the upper volume specification, indicating the cutting device may require slight recalibration to lower implant volumes. Majority of Size B implants however were sufficiently within the target volume window and therefore no adjustments are necessary. 
 
 ## Dataset Overview
-The digital microscope collects and records all data as measurements are taken, and is saved as an exportable Excel file.
+The digital microscope collects and records all data as measurements are taken, and is saved as an exportable Excel file. These files have been 
 Datasets consist of the following columns:
 - Implant #
 - Time of Measurement (Date/Time)
@@ -52,9 +52,9 @@ Dataset has undergone cleaning/wrangling prior to analysis (Power Query).
 ## Insights and Discussions
 ### Passed Implants Statistics
 Statistical Overview of Implant Dimensions:
-- Implants dimensional measurements indicated that both Size A and B have achieved an average volume of 0.5803 mm^3 and 1.1296 mm^3, with deviations from target volumes by +2.39% and -0.35%, respectively.
-- Diameter was consistent between the two sizes of implants, with averages differing by only 0.0013 mm, which was expected as both Size A and B implants were manufactured from the same synthesised polymer rods and then cut to different lengths. This does indicate excellent uniformity of the synthesised polymer rods prior to being cut, also reflected by % RSD values of < 1%. 
-- Size A implants are half the length of Size B implants by design and is consistent with the length measurements. The SD of lengths are not notably different between the two sizes, being 0.073 and 0.086 mm for Size A and B respectively, though this results in a greater %RSD in Size A lengths than Size B of 2.1% and 1.3%, considering Size A implants are smaller. As the SD in length between the two sizes is marginal, this demonstrates a constant, intrinsic error margins of the cutting procedure rather than other attributing factors such as smaller implants being more difficult to handle for production technicians. Overall, this still represents highly satisfactory levels of cutting accuracy and precision.
+- Implants dimensional measurements indicated that both Size A and B have achieved average volumes of 0.5803 mm^3 and 1.1296 mm^3, with deviations from target volumes by +2.39% and -0.35%, respectively.
+- Diameter was consistent between the two sizes of implants, with averages differing by only 0.0013 mm, which was expected as both Size A and B implants were manufactured from the same synthesised polymer rods and subsequently cut to different lengths. This indicated excellent uniformity of the synthesised polymer rods prior to being cut, and also reflected by % RSD values of < 1%. 
+- Size A implants were half the length of Size B implants by design which was consistent with the length measurements. The SD of lengths were not notably different between the two sizes, being 0.073 and 0.086 mm for Size A and B respectively, though this resulted in a greater %RSD in Size A lengths than Size B of 2.1% and 1.3%, considering Size A implants were smaller. As the SD in length between the two sizes was marginal, this demonstrated a constant, intrinsic error margin of the cutting procedure rather than other attributing factors such as smaller implants being more difficult to handle for production technicians. Overall, this still represented highly satisfactory levels of cutting accuracy and precision.
 
 Implant Inspection Count:
 - 22,234 total implants were cut over 15 days, with Size B implants having a higher pass rate than Size A implants. This indicates that implants of both sizes are yielding satisfactory pass rates using the current upscale cutting method, and the effectiveness of the digital microscope in high-output inspections. 
