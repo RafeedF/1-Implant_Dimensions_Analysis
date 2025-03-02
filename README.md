@@ -8,12 +8,12 @@ _<ins>Disclaimer</ins>: The original dataset for this analysis, and therefore re
 
 ## Analytic Objectives
 
-1. Calculations: To have a better statistical grasp of the inspected implant dimensions and understanding the accuracy and precision of implants cut at Size A and Size B for production.
+1. To have a better statistical grasp of the inspected implant dimensions and understanding the accuracy and precision of implants cut at Size A and Size B for production.
     - Statistics: Averages, Standard Deviations (SD), and % Relative Standard Deviations (%RSD)
     - On: Length, Diameter, and Volume
     - Grouped by: Passed implants, and Total implants
 
-2. Visualisations: To illustrate inspection data to better understand trends pertaining to implant volumes, pass rates and inspection efficiency for Size A and B implants. 
+2. To visualise inspection data to better understand trends pertaining to implant volumes, pass rates and inspection efficiency for Size A and B implants. 
     - Time series:
         - Plotting average and individual implant volumes, and trends over time.
         - Pass rates at a given time, and over time.
@@ -22,14 +22,14 @@ _<ins>Disclaimer</ins>: The original dataset for this analysis, and therefore re
 Analysis will be conducted on Microsoft Power BI.
 
 ## Executive Summary
-Dimensional analysis of passed Size A and B implants demonstrated that implant measurements were consistent across the board, with both sizes achieving volumes close to the target volume specifications, deviating by +2.35% and -0.35% respectively, thereby demonstrating accuracy. The low % relative standard deviations (%RSD) observed for Size and B implants of 1.93% and 2.12% also showed high levels of precision. This indicated that the cutting output of Size A and Size B implants during manufacture was satisfactory and appropriate for upscaled production. 
+Dimensional analysis of passed Size A and B implants revealed that implant measurements were consistent across the board, with both sizes achieving volumes close to the target volume specifications, deviating by +2.35% and -0.35% respectively, thereby demonstrating accuracy. The low % relative standard deviations (%RSD) observed for Size and B implants of 1.93% and 2.12% also showed high levels of precision. This indicated that the cutting output of Size A and Size B implants during manufacture was satisfactory and appropriate for upscaled production. 
 Pass rate assessments showed that Size A implants were more susceptible to failing volume specifications than Size B implants, with overall pass rates of 73.5% and 93.8% respectively. 
-Trend-over-time analysis of the two implant sizes suggest that though there is no significant trending changes in volume over time for both size groups, Size A demonstrates a slight increase in pass-rates over time, whereas Size B remains almost constant. A possible reason for this may be improvements in cutting techniques over time, given Size A implants were cut and inspected before the Size B implants, where production technicians would be more experienced in the process. 
+Trend-over-time analysis of the two implant sizes suggested that though there were no significant trending changes in volume over time for both size groups, Size A demonstrated a slight increase in pass-rates over time, whereas Size B remained near-constant. 
 Assessment of individual implants volumes revealed that a significant proportion of failed Size A implants tended to exceed the upper volume specification, indicating the cutting device may require slight recalibration to lower implant volumes. Majority of Size B implants however were sufficiently within the target volume window and therefore no adjustments are necessary. 
 
 ## Dataset Overview
-Instrument collects all data. Exportable Excel file for the two FP batches (80 and 160 mcg).
-Dataset consists of the following columns:
+The digital microscope collects and records all data as measurements are taken, and is saved as an exportable Excel file.
+Datasets consist of the following columns:
 - Implant #
 - Time of Measurement (Date/Time)
 - OK/NG (Passed or Failed on Volume Specification)
@@ -53,7 +53,7 @@ Dataset has undergone cleaning/wrangling prior to analysis (Power Query).
 ### Passed Implants Statistics
 Statistical Overview of Implant Dimensions:
 - Implants dimensional measurements indicated that both Size A and B have achieved an average volume of 0.5803 mm^3 and 1.1296 mm^3, with deviations from target volumes by +2.39% and -0.35%, respectively.
-- Diameter is consistent between the two sizes of implants, with averages differing by only 0.0013 mm, which is expected as both Size A and B implants are manufactured from the same synthesised polymer rods and then cut to different lengths. This does indicate excellent uniformity of the synthesised polymer rods prior to being cut, also reflected by % RSD values of < 1%. 
+- Diameter was consistent between the two sizes of implants, with averages differing by only 0.0013 mm, which was expected as both Size A and B implants were manufactured from the same synthesised polymer rods and then cut to different lengths. This does indicate excellent uniformity of the synthesised polymer rods prior to being cut, also reflected by % RSD values of < 1%. 
 - Size A implants are half the length of Size B implants by design and is consistent with the length measurements. The SD of lengths are not notably different between the two sizes, being 0.073 and 0.086 mm for Size A and B respectively, though this results in a greater %RSD in Size A lengths than Size B of 2.1% and 1.3%, considering Size A implants are smaller. As the SD in length between the two sizes is marginal, this demonstrates a constant, intrinsic error margins of the cutting procedure rather than other attributing factors such as smaller implants being more difficult to handle for production technicians. Overall, this still represents highly satisfactory levels of cutting accuracy and precision.
 
 Implant Inspection Count:
