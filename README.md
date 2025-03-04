@@ -18,7 +18,9 @@ _<ins>Disclaimer</ins>: The original dataset for this analysis, and therefore re
         - Pass rates at a given time, and over time.
     - Granular visualisation
 
-Analysis will be conducted on Microsoft Power BI.
+Analysis will be conducted on Microsoft Power BI. 
+
+The Microsoft Power BI Desktop file (.pbix) can be downloaded for viewing using the following [link](https://github.com/RafeedF/1-Implant_Dimensions_Analysis/blob/main/Implant%20Dimension%20Analytics%20Project.pbix).
 
 ## Executive Summary
 Dimensional analysis of passed Size A and B implants revealed that implant measurements were consistent across the board, with both sizes achieving volumes close to the target volume specifications, deviating by +2.35% and -0.35% respectively, thereby demonstrating accuracy. The low % relative standard deviations (%RSD) observed for Size and B implants of 1.93% and 2.12% also showed high levels of precision. This indicated that the cutting output of Size A and Size B implants during manufacture was satisfactory and appropriate for upscaled production. 
