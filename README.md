@@ -69,7 +69,7 @@ Implant Inspection Count:
 ![image](https://github.com/user-attachments/assets/6bcbb6eb-6e8f-40e1-a8e5-9e1e77c5d0a8)
 
 ### Size A and B Trend Analysis
-Provides more detailed analytics on Size A implant volumes, with finer granularity. Focuses on moving averages and individual implant measurements over time. Also includes dynamic visualisations on both dimension statistics and pass rates at a given time. 
+Trend analysis provides more detailed analytics on Size A and B implant volumes and with finer granularity. Focuses on moving averages and individual implant measurements over time, and includes dynamic visualisations on both dimension statistics and pass rates at a given time. 
 
 Size A:
 - Volume over time
