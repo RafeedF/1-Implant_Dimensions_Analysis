@@ -34,13 +34,13 @@ Datasets consist of the following columns:
 - Implant #
 - Time of Measurement (Date/Time)
 - OK/NG (Passed or Failed on Volume Specification)
-- Lot/Slide #
-- Serial Counter
+- _Lot/Slide #_
+- _Serial Counter_
 - Diameter (mm)
 - Length (mm)
 - Volume (mm^3)
 
-_Italisised columns have been disregarded as they are not relevant for this analysis._
+_Italicised columns have been disregarded as they are not relevant for this analysis._
 
 Dataset has undergone cleaning/wrangling prior to analysis (Power Query).
 
